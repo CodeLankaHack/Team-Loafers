@@ -13,7 +13,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about_me_1);
+        setContentView(R.layout.activity_main);
     }
 
 
@@ -39,7 +39,11 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
     public void x (View view){
-        Intent intent = new Intent(this ,maps.class);
+        Intent intent = new Intent(this ,traveller.class);
+        startActivity(intent);
+    }
+    public void seecmp (View view){
+        Intent intent = new Intent(this ,mode.class);
         startActivity(intent);
     }
 }

@@ -1,5 +1,6 @@
 package com.example.user.poly_glot;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -21,7 +22,7 @@ public class nice_to_meet_u_2 extends ActionBarActivity {
         play = (ImageButton) findViewById(R.id.play);
         pause = (ImageButton) findViewById(R.id.pause);
 
-        final MediaPlayer sound = MediaPlayer.create(nice_to_meet_u_2.this,R.raw.ma);
+        final MediaPlayer sound = MediaPlayer.create(nice_to_meet_u_2.this,R.raw.Subaudasanakweva);
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -63,5 +64,9 @@ public class nice_to_meet_u_2 extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    public void seecmp (View view){
+        Intent intent = new Intent(this ,Nice_to_meet_u_3.class);
+        startActivity(intent);
     }
 }

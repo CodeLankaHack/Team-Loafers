@@ -10,7 +10,7 @@ public class splash extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about_me_1);
+        setContentView(R.layout.spalsh);
 
 
         // splash screen code //

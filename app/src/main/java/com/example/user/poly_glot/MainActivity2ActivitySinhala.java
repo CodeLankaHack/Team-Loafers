@@ -14,17 +14,17 @@ public class MainActivity2ActivitySinhala extends ActionBarActivity {
         setContentView(R.layout.activity_main_activity2_activity_sinhala);
     }
 
-    public void xxx (View view){
+    public void xx1 (View view){
         Intent intent = new Intent(this ,Nice_to_meet_u.class);
         startActivity(intent);
     }
 
-    public void xxz (View view){
+    public void xx2 (View view){
         Intent intent = new Intent(this ,About_me_1.class);
         startActivity(intent);
     }
 
-    public void xxy (View view){
+    public void xx3 (View view){
         Intent intent = new Intent(this ,Feelings_1.class);
         startActivity(intent);
     }

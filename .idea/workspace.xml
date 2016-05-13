@@ -11,16 +11,37 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
+        <devices>
+          <device id="Nexus 6" />
+          <device id="Nexus 10" />
+          <device id="Nexus 9" />
+          <device id="Nexus 5" />
+        </devices>
         <target>android-21</target>
       </config>
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_activity2_activity_sinhala.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mode.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_select_the_languages_u_knw.xml">
         <config>
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_traveller.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/spalsh.xml">
         <config>
           <theme>@style/AppTheme</theme>
         </config>
@@ -32,8 +53,190 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e27019e-fd63-45dd-8de5-a049b40447c5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/error.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_error.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_map.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_mode.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_moderate.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_traveller.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/moderate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/traveller.java" />
       <change type="DELETED" beforePath="D:\a\app\src\main\res\layout\activity_maps.xml~ae16df9d3595403ccd4aa380e48180a9394f40a4" afterPath="" />
       <change type="DELETED" beforePath="D:\a\app\src\main\res\layout\activity_maps.xml~origin_master" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable-hdpi\background_material_red.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable-hdpi\cc2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable-hdpi\drawable.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable-mdpi\cc2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable-mdpi\drawable.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable-mdpi\wwwww.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable-xhdpi\background_material_red.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable-xhdpi\cc2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable-xhdpi\drawable.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable-xxhdpi\background_material_red.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable-xxhdpi\cc2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable-xxhdpi\drawable.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable-xxxhdpi\background_material_red.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable-xxxhdpi\cc2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable-xxxhdpi\drawable.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa10.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa11.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa12.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa13.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa14.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa15.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa16.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa17.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa18.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa19.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa3.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa4.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa5.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa6.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa7.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa8.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\aa9.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\cap.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\cc.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\cc2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\cc3.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\cc5.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\cce.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\rr.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ss.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ss2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\ww9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\drawable\xxxx1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_about_me_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_about_me_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_about_me_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_about_me_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_about_me_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_about_me_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_about_me_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_feelings_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_feelings_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_feelings_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_feelings_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_feelings_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_greeting_people_sinhala.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_main_activity2_activity_sinhala.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_media.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_nice_to_meet_u.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_nice_to_meet_u_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_nice_to_meet_u_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_nice_to_meet_u_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_nice_to_meet_u_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_personal__pronouns__singular_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_personal__pronouns__singular_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_personal__pronouns__singular_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_pop_music_fragment1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_qwqw.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_select_the_languages_u_knw.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_which_language_u_like_to_learn.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\activity_xxx.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\arrow.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\arrow2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\button.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\button1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\fragment_qwqw.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\fragment_xxx.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\oval.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\oval2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\layout\oval3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_about_me_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_about_me_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_about_me_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_about_me_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_about_me_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_about_me_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_feelings_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_feelings_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_feelings_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_feelings_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_feelings_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_greeting_people_sinhala.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_main_activity2_activity_sinhala.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_media.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_nice_to_meet_u.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_nice_to_meet_u_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_nice_to_meet_u_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_nice_to_meet_u_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_nice_to_meet_u_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_personal__pronouns__singular_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_personal__pronouns__singular_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_personal__pronouns__singular_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_pop_music_fragment1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_qwqw.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_select_the_languages_u_knw.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_which_language_u_like_to_learn.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\menu\menu_xxx.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\mipmap-hdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\mipmap-mdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\mipmap-xhdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\mipmap-xxhdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\raw\aw.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\raw\ma.mp3" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\values-w820dp\dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\values\dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\values\readme.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\values\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\a\app\src\main\res\res\values\styles.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_1.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_4.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_5.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_5.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_1.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_3.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_4.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/MainActivity2ActivitySinhala.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/MainActivity2ActivitySinhala.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_3.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_4.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_4.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_5.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_5.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Personal_Pronouns_Singular_1.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Personal_Pronouns_Singular_1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Personal_Pronouns_Singular_2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Personal_Pronouns_Singular_2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_1.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_4.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_5.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_1.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_3.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_4.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_activity2_activity_sinhala.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_activity2_activity_sinhala.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_nice_to_meet_u.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_nice_to_meet_u.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_nice_to_meet_u_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_nice_to_meet_u_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_nice_to_meet_u_3.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_nice_to_meet_u_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_nice_to_meet_u_4.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_nice_to_meet_u_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_personal__pronouns__singular_1.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_personal__pronouns__singular_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_personal__pronouns__singular_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_personal__pronouns__singular_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/nice_to_meet_u_2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/nice_to_meet_u_2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/splash.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/splash.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MOVED" beforePath="D:\a\app\src\main\java\com\example\user\poly_glot\maps.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/mode.java" />
     </list>
     <ignored path="Poly_Glot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,41 +259,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/MainActivity.java">
+      <file leaf-file-name="activity_traveller.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_traveller.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="782">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-              <folding />
+            <state vertical-scroll-proportion="-5.296296" vertical-offset="401" max-vertical-offset="1530">
+              <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+              <folding>
+                <element signature="e#220#255#0" expanded="true" />
+                <element signature="e#281#316#0" expanded="true" />
+                <element signature="e#340#373#0" expanded="true" />
+                <element signature="e#400#433#0" expanded="true" />
+              </folding>
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maps.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/maps.java">
+      <file leaf-file-name="Feelings_2.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="714">
-              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1054">
+              <caret line="69" column="2" selection-start-line="69" selection-start-column="2" selection-end-line="72" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="splash.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/splash.java">
+      <file leaf-file-name="traveller.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/traveller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39464286" vertical-offset="0" max-vertical-offset="646">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.18579236" vertical-offset="0" max-vertical-offset="714">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_about_me_1.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_1.xml">
+      <file leaf-file-name="activity_map.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map.xml">
           <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1972">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -99,65 +310,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_feelings_1.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_1.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1989">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_greeting_people_sinhala.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_greeting_people_sinhala.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="About_me_3.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_3.java">
+      <file leaf-file-name="About_me_1.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="1122">
-              <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1071">
+              <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_about_me_3.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_3.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2635">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main_activity2_activity_sinhala.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_activity2_activity_sinhala.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3468">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -961,51 +1120,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_6.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/nice_to_meet_u_2.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_3.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_4.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_5.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Personal_Pronouns_Singular_1.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Personal_Pronouns_Singular_2.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Personal_Pronouns_Singular_3.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/qwqw.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Select_the_languages_u_knw.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/xxx.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Which_language_u_like_to_learn.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/media.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_2.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_1.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_3.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_4.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_5.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_2.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_4.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_5.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_1.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_activity2_activity_sinhala.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/MainActivity2ActivitySinhala.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_3.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_maps.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/button.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_which_language_u_like_to_learn.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_4.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_3.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_5.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/oval2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_6.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/arrow.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/spalsh.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_1.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/maps.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_4.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_5.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_1.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_4.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_5.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_1.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_3.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_4.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_3.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_4.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_nice_to_meet_u.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_nice_to_meet_u_2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_nice_to_meet_u_3.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_nice_to_meet_u_4.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_5.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_4.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Personal_Pronouns_Singular_1.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Personal_Pronouns_Singular_2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_personal__pronouns__singular_1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_personal__pronouns__singular_2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_mode.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/splash.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_activity2_activity_sinhala.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/MainActivity2ActivitySinhala.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_error.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_moderate.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/moderate.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/mode.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/maps.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/nice_to_meet_u_2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_3.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_traveller.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_map.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/map.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/traveller.java" />
       </list>
     </option>
   </component>
@@ -1047,90 +1212,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Poly_Glot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Poly_Glot" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Poly_Glot" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Poly_Glot" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Poly_Glot" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Poly_Glot" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poly_glot" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Poly_Glot" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1240,6 +1321,108 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Poly_Glot" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Poly_Glot" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Poly_Glot" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raw" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Poly_Glot" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Poly_Glot" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Poly_Glot" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="poly_glot" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Poly_Glot" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1250,7 +1433,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="D:/Documents/Moodle+" />
+    <property name="last_opened_file_path" value="D:/Documents/android/blind" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_21_x86" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -1258,6 +1441,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -1383,8 +1567,8 @@
     </configuration>
     <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="app" />
-      <option name="ACTIVITY_CLASS" value="com.example.user.poly_glot.MainActivity2ActivitySinhala" />
-      <option name="MODE" value="default_activity" />
+      <option name="ACTIVITY_CLASS" value="com.example.user.poly_glot.traveller" />
+      <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
@@ -1461,12 +1645,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1493,6 +1677,36 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1522,247 +1736,205 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_3.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Personal_Pronouns_Singular_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Personal_Pronouns_Singular_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Personal_Pronouns_Singular_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Which_language_u_like_to_learn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
-          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/media.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/xxx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1164" max-vertical-offset="2346">
-          <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="1054">
+          <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/readme.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77757007" vertical-offset="162" max-vertical-offset="765">
-          <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/qwqw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1799" max-vertical-offset="2346">
-          <caret line="143" column="55" selection-start-line="143" selection-start-column="55" selection-end-line="143" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1037">
+          <caret line="69" column="51" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_1.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.84821427" vertical-offset="392" max-vertical-offset="1020">
+          <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15178572" vertical-offset="0" max-vertical-offset="952">
+        <state vertical-scroll-proportion="-0.54821426" vertical-offset="392" max-vertical-offset="952">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/MainActivity2ActivitySinhala.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15178572" vertical-offset="0" max-vertical-offset="969">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="1020">
-          <caret line="67" column="19" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87857145" vertical-offset="409" max-vertical-offset="1054">
-          <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.84821427" vertical-offset="409" max-vertical-offset="1054">
+          <caret line="69" column="3" selection-start-line="69" selection-start-column="3" selection-end-line="72" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_1.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1054">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.6964286" vertical-offset="460" max-vertical-offset="1020">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2618">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        <state vertical-scroll-proportion="-10.296296" vertical-offset="385" max-vertical-offset="2142">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="49" selection-end-column="61" />
           <folding>
-            <element signature="e#269#287#0" expanded="true" />
-            <element signature="e#409#427#0" expanded="true" />
-            <element signature="e#739#757#0" expanded="true" />
-            <element signature="e#1083#1134#0" expanded="true" />
-            <element signature="e#1260#1315#0" expanded="true" />
-            <element signature="e#1439#1495#0" expanded="true" />
-            <element signature="e#1614#1662#0" expanded="true" />
-            <element signature="e#1763#1793#0" expanded="true" />
-            <element signature="e#1903#1942#0" expanded="true" />
-            <element signature="e#2054#2095#0" expanded="true" />
-            <element signature="e#2207#2248#0" expanded="true" />
-            <element signature="e#2348#2377#0" expanded="true" />
-            <element signature="e#2661#2689#0" expanded="true" />
-            <element signature="e#2801#2842#0" expanded="true" />
-            <element signature="e#2954#2995#0" expanded="true" />
-            <element signature="e#3101#3136#0" expanded="true" />
-            <element signature="e#3446#3481#0" expanded="true" />
-            <element signature="e#3587#3622#0" expanded="true" />
-            <element signature="e#3728#3763#0" expanded="true" />
-            <element signature="e#3869#3904#0" expanded="true" />
-            <element signature="e#4010#4045#0" expanded="true" />
-            <element signature="e#4151#4186#0" expanded="true" />
-            <element signature="e#4292#4327#0" expanded="true" />
-            <element signature="e#4433#4468#0" expanded="true" />
-            <element signature="e#4574#4609#0" expanded="true" />
-            <element signature="e#4715#4750#0" expanded="true" />
-            <element signature="e#4874#4929#0" expanded="true" />
-            <element signature="e#5053#5108#0" expanded="true" />
-            <element signature="e#5232#5287#0" expanded="true" />
-            <element signature="e#5387#5416#0" expanded="true" />
+            <element signature="e#223#258#0" expanded="false" />
+            <element signature="e#284#319#0" expanded="false" />
+            <element signature="e#343#376#0" expanded="false" />
+            <element signature="e#403#436#0" expanded="false" />
           </folding>
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15" vertical-offset="1" max-vertical-offset="969">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_4.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2125">
+          <caret line="49" column="61" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
+          <folding>
+            <element signature="e#223#258#0" expanded="false" />
+            <element signature="e#284#319#0" expanded="false" />
+            <element signature="e#343#376#0" expanded="false" />
+            <element signature="e#403#436#0" expanded="false" />
+          </folding>
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_nice_to_meet_u_4.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2142">
+          <caret line="49" column="61" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
+          <folding>
+            <element signature="e#223#258#0" expanded="false" />
+            <element signature="e#284#319#0" expanded="false" />
+            <element signature="e#343#376#0" expanded="false" />
+            <element signature="e#403#436#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6964286" vertical-offset="460" max-vertical-offset="1020">
-          <caret line="67" column="2" selection-start-line="67" selection-start-column="2" selection-end-line="70" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="1020">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="70" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Select_the_languages_u_knw.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="392" max-vertical-offset="1003">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="392" max-vertical-offset="1020">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Personal_Pronouns_Singular_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="1037">
+          <caret line="69" column="69" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Personal_Pronouns_Singular_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="1037">
+          <caret line="69" column="69" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_personal__pronouns__singular_1.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="334" max-vertical-offset="2142">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#223#258#0" expanded="false" />
+            <element signature="e#284#319#0" expanded="false" />
+            <element signature="e#343#376#0" expanded="false" />
+            <element signature="e#403#436#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_personal__pronouns__singular_2.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="2142">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#223#258#0" expanded="false" />
+            <element signature="e#284#319#0" expanded="false" />
+            <element signature="e#343#376#0" expanded="false" />
+            <element signature="e#403#436#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_5.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1955">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="2805">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/error.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_1.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1972">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_1.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_error.xml">
       <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1989">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -1770,10 +1942,34 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_activity2_activity_sinhala.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/splash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="646">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/moderate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="239" max-vertical-offset="799">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/mode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_moderate.xml">
       <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3468">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2471" max-vertical-offset="3315">
+          <caret line="118" column="34" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1792,17 +1988,20 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="1122">
-          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="510">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="31" />
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_3.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_media.xml">
       <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2635">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1811,26 +2010,233 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mode.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="605" max-vertical-offset="2057">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_xxx.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_which_language_u_like_to_learn.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2040">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/media.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/MainActivity2ActivitySinhala.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60535717" vertical-offset="35" max-vertical-offset="595">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_1.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="2159">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_3.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2159">
+          <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_select_the_languages_u_knw.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_activity2_activity_sinhala.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.740741" vertical-offset="204" max-vertical-offset="3468">
+          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="38" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="782">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="290" max-vertical-offset="850">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/maps.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/About_me_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="714">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1071">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/splash.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39464286" vertical-offset="0" max-vertical-offset="646">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.4857143" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Nice_to_meet_u_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4857143" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="23" column="94" selection-start-line="23" selection-start-column="94" selection-end-line="23" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/nice_to_meet_u_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51607144" vertical-offset="0" max-vertical-offset="1037">
+          <caret line="24" column="93" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_nice_to_meet_u_2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.43527204" vertical-offset="2561" max-vertical-offset="3706">
+          <caret line="137" column="57" selection-start-line="137" selection-start-column="57" selection-end-line="137" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_nice_to_meet_u_3.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93621016" vertical-offset="368" max-vertical-offset="2244">
+          <caret line="51" column="61" selection-start-line="51" selection-start-column="61" selection-end-line="51" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_nice_to_meet_u.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1626" max-vertical-offset="2159">
+          <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about_me_1.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="2142">
+          <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_feelings_2.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="2159">
+          <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_traveller.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.296296" vertical-offset="401" max-vertical-offset="1530">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding>
+            <element signature="e#220#255#0" expanded="true" />
+            <element signature="e#281#316#0" expanded="true" />
+            <element signature="e#340#373#0" expanded="true" />
+            <element signature="e#400#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/Feelings_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1054">
+          <caret line="69" column="2" selection-start-line="69" selection-start-column="2" selection-end-line="72" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/user/poly_glot/traveller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18579236" vertical-offset="0" max-vertical-offset="714">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

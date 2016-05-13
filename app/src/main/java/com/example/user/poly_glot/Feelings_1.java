@@ -1,5 +1,6 @@
 package com.example.user.poly_glot;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -64,5 +65,10 @@ public class Feelings_1 extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void seecmp (View view){
+        Intent intent = new Intent(this ,Feelings_2.class);
+        startActivity(intent);
     }
 }

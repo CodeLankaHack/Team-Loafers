@@ -38,4 +38,9 @@
     <string name="title_activity_personal__pronouns__singular_3">Personal Pronouns Singular</string>
     <string name="title_activity_maps">maps</string>
     <string name="title_activity_splash">splash</string>
+    <string name="title_activity_mode">mode</string>
+    <string name="title_activity_moderate">moderate</string>
+    <string name="title_activity_error">error</string>
+    <string name="title_activity_traveller">traveller</string>
+    <string name="title_activity_map">map</string>
 </resources>

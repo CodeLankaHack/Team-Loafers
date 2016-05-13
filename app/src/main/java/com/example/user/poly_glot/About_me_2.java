@@ -65,7 +65,7 @@ public class About_me_2 extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    public void xxy (View view){
+    public void seecmp (View view){
         Intent intent = new Intent(this ,About_me_3.class);
         startActivity(intent);
     }

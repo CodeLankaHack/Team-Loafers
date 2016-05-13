@@ -67,8 +67,9 @@ public class About_me_1 extends ActionBarActivity {
     }
 
 
-    public void abt2 (View view){
+    public void seecmp (View view){
         Intent intent = new Intent(this ,About_me_2.class);
         startActivity(intent);
     }
+
 }

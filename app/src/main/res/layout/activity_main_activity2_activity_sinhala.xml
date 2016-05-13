@@ -12,7 +12,7 @@
             android:layout_marginTop="100dp"
             android:elevation="0dp"
             android:background="#29B4E5"
-            android:onClick="xxx"
+            android:onClick="xx1"
             android:id="@+id/ww">
 
             <TextView
@@ -52,7 +52,7 @@
             android:layout_height="130dp"
             android:elevation="0dp"
             android:background="#3DC9A2"
-            android:onClick="xxx"
+            android:onClick="xx3"
             android:layout_below="@+id/ww2"
             android:id="@+id/ww1"
             android:layout_marginTop="5dp">
@@ -94,7 +94,7 @@
             android:layout_height="130dp"
             android:elevation="0dp"
             android:background="#E36A26"
-            android:onClick="xxx"
+            android:onClick="xx2"
             android:layout_below="@+id/ww"
             android:id="@+id/ww2"
             android:layout_marginTop="5dp">

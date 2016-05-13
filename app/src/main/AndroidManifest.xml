@@ -142,7 +142,26 @@
             android:name=".maps"
             android:label="@string/title_activity_maps" >
         </activity>
-
+        <activity
+            android:name=".mode"
+            android:label="@string/title_activity_mode" >
+        </activity>
+        <activity
+            android:name=".moderate"
+            android:label="@string/title_activity_moderate" >
+        </activity>
+        <activity
+            android:name=".error"
+            android:label="@string/title_activity_error" >
+        </activity>
+        <activity
+            android:name=".traveller"
+            android:label="@string/title_activity_traveller" >
+        </activity>
+        <activity
+            android:name=".map"
+            android:label="@string/title_activity_map" >
+        </activity>
     </application>
 
 </manifest>

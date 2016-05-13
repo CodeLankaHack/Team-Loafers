@@ -36,7 +36,17 @@
             android:src="@drawable/ww8"
             android:layout_marginBottom="200dp"
             android:layout_gravity="center_horizontal|top" />
+        <Button
+            android:layout_width="47dp"
+            android:layout_height="68dp"
+            android:layout_centerInParent="true"
 
+            android:id="@+id/wwwq"
+            android:onClick="seecmp"
+            android:alpha="0.7"
+            android:layout_marginBottom="100dp"
+            android:background="@layout/arrow"
+            android:layout_gravity="right|center_vertical" />
 
         <FrameLayout
             android:layout_marginBottom="75dp"
