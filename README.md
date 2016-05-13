@@ -5,9 +5,9 @@ Team Loafers proudly presents polyglot which is an android application hich can 
 
 ![My image](https://github.com/CodeLankaHack/Team-Loafers/blob/master/app/src/main/res/drawable/download.png)
 
-![My image](https://github.com/CodeLankaHack/Team-Loafers/blob/master/app/src/main/res/drawable/Captur2e.png)
+![My image](https://github.com/CodeLankaHack/Team-Loafers/blob/master/app/src/main/res/drawable/Captur2e.PNG)
 
-![My image](https://github.com/CodeLankaHack/Team-Loafers/blob/master/app/src/main/res/drawable/Capture.png)
-![My image](https://github.com/CodeLankaHack/Team-Loafers/blob/master/app/src/main/res/drawable/Capture1.png)
+![My image](https://github.com/CodeLankaHack/Team-Loafers/blob/master/app/src/main/res/drawable/Capture.PNG)
+![My image](https://github.com/CodeLankaHack/Team-Loafers/blob/master/app/src/main/res/drawable/Capture1.PNG)
 
 https://www.youtube.com/watch?v=cfVbnjHkm1Y&rel=0
